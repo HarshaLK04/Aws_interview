@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .btn {
+            display: inline-block;
+            font-weight: 400;
+            color: #e0e5e9;
+            text-align: center;
+            vertical-align: middle;
+            background-color: black;
+            border: 1px solid transparent;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: .25rem;
+        }
+
+        input {
+            /* Apply CSS styling such that their is no border for input tag 
+            Also their is only botton border solid 1px of black for input element */
+        }
+
+        /* Apply appropriate pseduo class such that below stylings gets activated once user clicks/focus on input field */
+        input{
+            outline: none;
+            background-color: black;
+            color: white
+        }
+
+        span {
+            /* Provide color of red to span tag text */
+        }
+
+        /* Apply appropriate pseudo elements such that below styling gets activated for placeholder */
+        input{
+            color: red;
+        }
+
+        /* Apply suitable pseudo class such that below styling get activated when user hover over it */
+        .btn:hover {
+            /* Change the background color to grey 
+            Remove any lines,if appearing
+            Change cusror to pointer */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Form is already created and necessary classes has been provided to elements -->
+    <!-- Use the class btn , span and input tag to provide necessarry styling  -->
+    <!-- Font and button stylying is already done  -->
+    <form>
+        <div>
+            <label for='name'>Name<span>*</span></label><br /><br />
+            <input type="text" id="name" placeholder="Enter name">
+        </div>
+        <div>
+            <label for='tech'>Technology<span>*</span></label><br /><br />
+            <input type="text" id="tech" placeholder="Enter technology">
+        </div>
+        <div>
+            <label for='area'>Location<span>*</span></label><br /><br />
+            <input type="text" id="area" placeholder="Enter area">
+        </div><br /><br />
+        <div>
+            <button type='submit' class='btn'>Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
