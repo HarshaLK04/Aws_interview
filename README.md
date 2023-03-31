@@ -45,7 +45,7 @@ I mostly work with AWS, Devops  and Cloud based technologies. 🚀
   
 ### Databases and Monitoring
   
-  
+  </a>
     <a href="https://www.postgresql.org" target="_blank" >
     <img src="https://www.postgresql.org/media/img/about/press/elephant.png" height="60" />
   </a>
