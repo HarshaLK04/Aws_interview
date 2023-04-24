@@ -18,7 +18,7 @@ I mostly work with AWS, Devops  and Cloud based technologies. 🚀
   </a>
   
   <a href="https://www.jenkins.io/" target="_blank" >
-    <img src="https://commons.wikimedia.org/wiki/File:Jenkins_logo.svg"  height="80" /> 
+    <img src="https://wiki.jenkins-ci.org/display/JENKINS/Logo"  height="80" /> 
   </a>
  </p>
   
