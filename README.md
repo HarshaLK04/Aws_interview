@@ -4,7 +4,7 @@
 **Harshal_Kalamkar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-I am [Harshal](https://www.linkedin.com/in/harshalkalamkar045/), a AWS Devops Engineer from [🇮🇳 ](https://en.wikipedia.org/wiki/India)&nbsp; passionate about developing production-ready applications with 2+ years of professional onsite as well as remote working experience. 🎯
+I am [Harshal](https://www.linkedin.com/in/harshalkalamkar045/), a AWS Devops Engineer from [🇮🇳 ](https://en.wikipedia.org/wiki/India)&nbsp; passionate about developing production-ready applications with 2+ years of working experience. 🎯
 
 I mostly work with AWS, Devops  and Cloud based technologies. 🚀
 
