@@ -17,8 +17,8 @@ I mostly work with AWS, Devops  and Cloud based technologies. 🚀
     <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/docker.gif"  height="80" /> 
   </a>
   
-  <a href="https://www.djangoproject.com/" target="_blank" >
-    <img src="https://www.edgica.com/wp-content/files/django-logo-big.jpg"  height="80" /> 
+  <a href="https://www.jenkins.com/" target="_blank" >
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jenkins.io%2F&psig=AOvVaw0LIfIk6UFGpk8QGYZClEZl&ust=1682438160617000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDp3tjwwv4CFQAAAAAdAAAAABAE.jpg"  height="80" /> 
   </a>
  </p>
   
