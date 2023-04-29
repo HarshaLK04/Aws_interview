@@ -1,48 +1,35 @@
-### Hi there 👋
+![logo](https://github.com/HarshalKalamkar767/HarshalKalamkar767/blob/main/Banner.png.png)
+<h1 align="center">Hi 👋, I'm Harshal Kalamkar</h1>
+<h3 align="center">A passionate DevOps Engineer from India</h3>
 
-<!--
-**Harshal_Kalamkar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
-
-I am [Harshal](https://www.linkedin.com/in/harshalkalamkar045/), a AWS Devops Engineer from [🇮🇳 ](https://en.wikipedia.org/wiki/India)&nbsp; passionate about developing production-ready applications with 2+ years of working experience. 🎯
-
-I mostly work with AWS, Devops  and Cloud based technologies. 🚀
+<img align="right" alt="DevOps" width="400" src="https://media.tenor.com/S59bPkT0pqcAAAAC/programming.gif">
 
 
-<p float="left">
-  <a href="https://python.org/" target="_blank" >
-    <img src="https://media1.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif"  height="90" />
-  </a>
-  <a href="https://www.docker.com/" target="_blank" >
-    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/docker.gif"  height="80" /> 
-  </a>
-  
-  <a href="https://www.jenkins.io/" target="_blank" >
-    <img src="https://wiki.jenkins-ci.org/display/JENKINS/Logo"  height="80" /> 
-  </a>
- </p>
-  
-### DevOps
-  
- <p float="left">
-  <a href="https://aws.amazon.com/" target="_blank" >
-    <img src="https://raw.githubusercontent.com/itsksaurabh/itsksaurabh/master/assets/aws.gif"  height="75" />
-  </a>
- </p>
-  
-### Databases and Monitoring
-  
-  </a>
-    <a href="https://www.postgresql.org" target="_blank" >
-    <img src="https://www.postgresql.org/media/img/about/press/elephant.png" height="60" />
-  </a>
- 
-  
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=HarshalKalamkar767&label=Profile%20views&color=0e75b6&style=flat" alt="HarshalKalamkar767" /> </p>
+
+- 🌱 I’m currently learning **DevOps Course**
+
+- 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/Harshal-Kalamkar-devops/](https://www.linkedin.com/in/Harshal-Kalamkar-devops/)
+
+- 📝 I regularly write articles on [https://hashnode.com/@HarshalKalamkar](https://hashnode.com/@HarshalKalamkar)
+
+- 💬 Ask me about **Linux Git & GitHub Docker Jenkins Kubernetes AWS IAM S3 RDS EC2**
+
+- 📫 How to reach me **HarshalKalamkar6966@gmail.com**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/HarshalKalamkar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Harshal Kalamkar" height="30" width="40" /></a>
+<a href="https://hashnode.com/@HarshalKalamkar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="@HarshalKalamkar" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/dev_Harshal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="dev_Harshal" height="30" width="40" /></a>
 </p>
 
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> </p>
 
-### 📫 How to reach me?
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=HarshalKalamkar767&show_icons=true&locale=en&layout=compact" alt="HarshalKalamkar767" /></p>
 
-  - Connect with me on [LinkedIn](https://www.linkedin.com/in/harshalkalamkar045/) 👨🏻‍💻
- - Follow me on [Instagram](https://www.linkedin.com/in/harshalkalamkar045/) ✨
- - Shoot Me an [Email](https://www.linkedin.com/in/harshalkalamkar045/) 💌
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=HarshalKalamkar767&show_icons=true&locale=en" alt="HarshalKalamkar767" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=HarshalKalamkar767&" alt="HarshalKalamkar767" /></p>
