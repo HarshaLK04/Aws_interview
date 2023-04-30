@@ -1,3 +1,6 @@
 [submodule "terraform-vpc"]
 	path = terraform-vpc
 	url = https://github.com/ygminds73/terraform-vpc.git
+[submodule "terraform-rds"]
+	path = terraform-rds
+	url = https://github.com/ygminds73/terraform_rds.git
