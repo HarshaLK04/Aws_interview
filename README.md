@@ -10,13 +10,11 @@
 
 - 🌱 I’m currently learning **DevOps Course**
 
-- 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/Harshal-Kalamkar-devops/](https://www.linkedin.com/in/Harshal-Kalamkar-devops/)
-
-- 📝 I regularly write articles on [https://hashnode.com/@HarshalKalamkar](https://hashnode.com/@HarshalKalamkar)
+- 👨‍💻 - 📝
 
 - 💬 Ask me about **Linux Git & GitHub Docker Jenkins Kubernetes AWS IAM S3 RDS EC2**
 
-- 📫 How to reach me **HarshalKalamkar6966@gmail.com**
+- 📫 How to reach me **harshalKalamkar6966@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
