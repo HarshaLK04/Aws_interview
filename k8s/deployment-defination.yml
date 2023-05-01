@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+   name: myapp-deployment
+   labels:
+     app: my-app
+     tier: forntend
+spec:
+   template:
+     metadata:
+       name: myapp-pod
+       labels:
+          app: myapp
+          type: fornt-end
+      spec:
+        containers:
+        - name: nginx-container
+          image: nginx:latest
+replicas: 3
+selector:
+  matchLabels:
+    type: fornt-end
+
+
+kubectl apply -f deployment-defination.yml
+
+kubectl get deployments
+
+kubectl rollout status deployment/myapp-deployment
+
+kubectl rollout history deployments
+
+

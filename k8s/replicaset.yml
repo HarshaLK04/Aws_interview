@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Replicaset
+metadata:
+   name: forntend
+   labels:
+     app: my-app
+     tier: forntend
+spec:
+   replicas: 3
+   selector
+     matchLabels:
+       tier: forntend
+   template: 
+     meatadata:
+       labels:
+         tier: forntend
+      spec:
+         containers:
+           - name: nginx container
+             image: nginx      
+
+
+# kubectl apply -f repilcaset.yml             
+# kubectl get rs
+# kubctle describe name 

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+      app: myapp
+      type: fornt-end
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx  
+
+
+# kubectl create -f pod-defination.yml
+# kubectl get pod
+# kubectl describe pod nginx
+# kubectl get pods -o wide
