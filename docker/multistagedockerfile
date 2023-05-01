@@ -1,0 +1,19 @@
+# Build stage
+FROM node:14-alpine AS build
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+# Final stage
+FROM nginx:1.21-alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+
+
+
+#   In this example, the first stage builds a Node.js application and generates a production build using "npm run build."
+#   The second stage uses the Nginx base image and copies the build artifacts from the first stage using the "COPY --from=build" command.
+#   Finally, it exposes port 80 and starts the Nginx server.
