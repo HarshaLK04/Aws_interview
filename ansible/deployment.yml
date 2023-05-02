@@ -1,0 +1,17 @@
+---
+- hosts: web_servers
+  gather_facts: yes
+  become: true
+  tasks:
+    - name: Stop web server
+      service:
+        name: nginx
+        state: stopped
+    - name: Deploy code
+      copy:
+        src: /tmp/myapp.tar.gz
+        dest: /var/www/myapp
+    - name: Start web server
+      service:
+        name: nginx
+        state: started

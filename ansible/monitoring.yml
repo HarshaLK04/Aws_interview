@@ -1,0 +1,14 @@
+---
+- hosts: monitoring_server
+  gather_facts: yes
+  become: true
+  tasks:
+    - name: Check disk usage
+      shell: "df -h / | awk 'FNR == 2 {print $5}'"
+      register: disk_usage
+    - name: Send alert if disk usage exceeds 80%
+      when: disk_usage.stdout|int > 80
+      mail:
+        to: admin@example.com
+        subject: "Disk usage alert"
+        body: "The disk usage on the server is {{ disk_usage.stdout }}%"

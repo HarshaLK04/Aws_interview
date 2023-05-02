@@ -1,0 +1,20 @@
+---
+- hosts: all
+  gather_facts: yes
+  become: true
+  tasks:
+    - name: Install packages
+      apt:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - nginx
+        - git
+        - python3-pip
+    - name: Clone git repository
+      git:
+        repo: https://github.com/example/example-repo.git
+        dest: /var/www/example-repo
+    - name: Install Python packages
+      pip:
+        name: -r /var/www/example-repo/requirements.txt
