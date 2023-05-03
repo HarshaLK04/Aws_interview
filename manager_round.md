@@ -1,20 +1,20 @@
-Technical knowledge: The manager may ask questions related to the candidate's knowledge of various DevOps tools and technologies, such as continuous integration and delivery (CI/CD) tools, infrastructure as code (IAC) tools, and monitoring tools. They may also ask about the candidate's experience with cloud platforms like AWS, Azure, or GCP.
+`Technical knowledge`: The manager may ask questions related to the candidate's knowledge of various DevOps tools and technologies, such as continuous integration and delivery (CI/CD) tools, infrastructure as code (IAC) tools, and monitoring tools. They may also ask about the candidate's experience with cloud platforms like AWS, Azure, or GCP.
 
-Problem-solving skills: The manager may present the candidate with hypothetical scenarios or problems and ask how they would approach and solve them. This could include troubleshooting a production issue or implementing a new CI/CD pipeline.
+`Problem-solving skills`: The manager may present the candidate with hypothetical scenarios or problems and ask how they would approach and solve them. This could include troubleshooting a production issue or implementing a new CI/CD pipeline.
 
-Collaboration and communication: The manager may ask the candidate about their experience working in a team and how they communicate with team members. They may also ask how they prioritize tasks and manage their workload.
+`Collaboration and communication:` The manager may ask the candidate about their experience working in a team and how they communicate with team members. They may also ask how they prioritize tasks and manage their workload.
 
-Process improvement: The manager may ask the candidate about their experience with process improvement, such as how they identify areas for improvement, implement changes, and measure the success of those changes.
+`Process improvement:` The manager may ask the candidate about their experience with process improvement, such as how they identify areas for improvement, implement changes, and measure the success of those changes.
 
 Business acumen: The manager may ask the candidate about their understanding of the business and how their work as a DevOps engineer impacts the organization's goals and objectives.
 
-1. What is your role in a team?
+1. `What is your role in a team?`
 e.g I am equally comfortable taking the lead or allowing a coworker to delegate tasks to me.
  In my previous experiences, I have managed projects as a team lead and also worked under the direction of other team leads.
   My experience working with a diverse group of people with unique skills and abilities has allowed me to understand that 
   I may require to shift and adjust my role according to the project
 
-2.If you make a mistake, how do you fix it?
+2.`If you make a mistake, how do you fix it?`
   When I make a mistake, I immediately communicate it and create a plan to rectify it.
   In my first role as a software developer, I realised that the code I wrote would lead to some bugs down the line. 
  In this situation, I communicated my mistake and resolved it immediately.
@@ -30,7 +30,7 @@ I was adaptable to on-call duties and able to take up real-time, live-system res
  I successfully automated processes to support continuous software deployments. 
  I have experience with public/private clouds, tools like Chef or Puppet, scripting and automation with tools like Python and PHP, and a background in Agile.
 
- Give me an example of how you would handle projects?
+ `Give me an example of how you would handle projects?`
  As a professional with managerial responsibilities, I would demonstrate a clear understanding of DevOps project management tactics and also work with teams to set objectives, streamline workflow, maintain scope, research and introduce new tools or frameworks, translate requirements into workflow and follow up. I would resort to CI, release management and other tools to keep interdisciplinary projects on track.
  
  6. What’s your career objective in your role as a DevOps engineer?
@@ -39,7 +39,7 @@ I was adaptable to on-call duties and able to take up real-time, live-system res
  7. How would you make software deployable?
  The ability to script the installation and reconfiguration of software systems is essential towards controlled and automated change. Although there is an increasing trend for new software to enable this, older systems and products suffer from the assumption that changes would be infrequent and minor, and so make automated changes difficult. As a professional who appreciates the need to expose configuration and settings in a manner accessible to automation, I will work with concepts like Inversion of Control (IoC) and Dependency Injection, scripted installation, test harnesses, separation of concerns, command-line tools, and infrastructure as code.
  
- 8. What is the one most important thing DevOps helps do?
+ 8.`What is the one most important thing DevOps helps do?`
  The most important thing DevOps helps do is to get the changes into production as quickly as possible while minimizing risks in software quality assurance and compliance. That is the primary objective of DevOps. However, there are many other positive sideeffects to
  DevOps. For example, clearer communication and better working relationships between teams which creates a less stressful working environment.
  
