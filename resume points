@@ -1,0 +1,38 @@
+Jenkins
+
+•	Experienced in troubleshooting Jenkins issues, such as build failures, pipeline errors, performance bottlenecks, and scalability challenges
+•	Have created various pipelines for deploying bitbucket scripts to db for the database team
+•	Skilled in integrating Jenkins with version control systems (e.g., Git, SVN), artifact repositories (e.g., Nexus, Artifactory), testing frameworks (e.g., JUnit, Selenium), and deployment tools (e.g., Ansible, Docker, Kubernetes).
+•	Excellent communication and collaboration skills, working effectively in cross-functional teams and adapting to changing requirements and priorities.
+•	Continuous learning and improvement mindset, always seeking new ways to optimize and innovate the CI/CD process using Jenkins or other tools and technologies.
+•	Extensive experience in setting up, configuring, and maintaining Jenkins automation server for continuous integration and delivery of software applications.
+
+Ansible
+Provisioning playbook:
+Automated the provisioning of a new server by installing required packages, cloning a git repository, and installing Python packages.
+Improved server deployment time by automating the setup process.
+Reduced human error and improved consistency by using Ansible playbooks for provisioning.
+
+Deployment playbook:
+Deployed a new version of an application by stopping and starting the web server, and copying the code to the server.
+Improved application deployment time by automating the deployment process.
+Reduced human error and improved consistency by using Ansible playbooks for deployment.
+
+Configuration playbook:
+Configured a database server by setting the MySQL root password in the my.cnf configuration file and installing the MySQL client.
+Improved server configuration time by automating the setup process.
+Reduced human error and improved consistency by using Ansible playbooks for configuration.
+
+Monitoring playbook:
+Monitored a server by checking the disk usage and sending an email alert to the administrator if the disk usage exceeded a certain threshold.
+Improved server uptime and performance by proactively monitoring critical system metrics.
+Reduced the risk of critical system failures by setting up automated alerts.
+
+Testing playbook:
+Set up a test environment with Docker Compose, ran integration tests with Pytest, and ran load tests with Locust.
+Improved the quality of the application by automating testing and identifying issues early in the development cycle.
+Reduced the risk of application downtime and improved user experience by identifying and fixing issues before deployment.
+
+
+
+
