@@ -1,0 +1,13 @@
+Terraform Automation
+
+1. commited terraform module/code to git repo
+2. Created Ec2 machine using terraform to perform all the actions and S3 bucket and DynamoDB .
+3. From that created jenkins pipeline to automate terraform 
+4. Jenkins retrieves the latest code changes and initiates the Terraform plan command to determine the changes that need to be made to the infrastructure.
+5. Once the EC2 instance is created, Terraform writes the state information to the local state file.
+6. Jenkins uploads the state file to the S3 bucket.
+7. The state file is locked in the S3 bucket using DynamoDB to prevent concurrent modifications.
+8. If a second developer attempts to make changes to the infrastructure, Terraform checks the lock in the DynamoDB table before allowing any modifications to occur.
+9. If the lock is released, Terraform allows the modifications to proceed and writes the updated state information to the state file.
+10.	Jenkins retrieves the updated state file from the S3 bucket and initiates the Terraform apply command to apply the changes to the infrastructure.
+11.	The workflow repeats whenever changes are made to the Terraform code or infrastructure.
