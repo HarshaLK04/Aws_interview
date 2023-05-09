@@ -1,3 +1,4 @@
+to deploy github sripts into database
 pipeline {
 agent any
 
@@ -23,6 +24,30 @@ DB_PASS = 'database_password'
 }
 steps {
 sh "mysql -h ${DB_HOST} -P ${DB_PORT} -u ${DB_USER} -p${DB_PASS} ${DB_NAME} < path/to/deployment/script.sql"
+}
+}
+}
+}
+
+
+=================================================================================
+to install git and clone repo into linux
+pipeline {
+agent {
+label 'linux'
+}
+
+stages {
+stage('Install Git') {
+steps {
+sh 'sudo apt-get update'
+sh 'sudo apt-get install -y git'
+}
+}
+
+stage('Clone Repository') {
+steps {
+sh 'git clone https://github.com/username/repository.git'
 }
 }
 }
