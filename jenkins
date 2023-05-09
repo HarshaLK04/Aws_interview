@@ -1,1 +1,29 @@
-jenkins
+pipeline {
+agent any
+
+stages {
+stage('Checkout') {
+steps {
+checkout([$class: 'GitSCM', 
+branches: [[name: '*/main']], 
+doGenerateSubmoduleConfigurations: false, 
+extensions: [], 
+submoduleCfg: [], 
+userRemoteConfigs: [[url: 'https://github.com/username/repository.git']]])
+}
+}
+
+stage('Deploy to Database') {
+environment {
+DB_HOST = 'localhost'
+DB_PORT = '3306'
+DB_NAME = 'database_name'
+DB_USER = 'database_user'
+DB_PASS = 'database_password'
+}
+steps {
+sh "mysql -h ${DB_HOST} -P ${DB_PORT} -u ${DB_USER} -p${DB_PASS} ${DB_NAME} < path/to/deployment/script.sql"
+}
+}
+}
+}
