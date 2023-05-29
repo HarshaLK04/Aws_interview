@@ -9,6 +9,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
+
 `Create an EBS volume resource: Define the EBS volume you want to attach in your configuration file.` For example:
 resource "aws_ebs_volume" "example" {
   availability_zone = "us-west-2a"
@@ -19,8 +20,8 @@ resource "aws_ebs_volume" "example" {
 `Create an EC2 instance resource: Define the EC2 instances that you want to attach the EBS volume to. Ensure that you include the aws_instance resource block for each instance. For example:`
 
 resource "aws_instance" "example_instance1" {
-  ami           = "ami-0123456789abcdef0"
-  instance_type = "t2.micro"
+ami           = "ami-0123456789abcdef0"
+instance_type = "t2.micro"
 
 # Other instance configuration parameters...
 
