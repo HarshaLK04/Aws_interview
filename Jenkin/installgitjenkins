@@ -1,0 +1,22 @@
+=================================================================================
+to install git and clone repo into linux
+pipeline {
+agent {
+label 'linux'
+}
+
+stages {
+stage('Install Git') {
+steps {
+sh 'sudo apt-get update'
+sh 'sudo apt-get install -y git'
+}
+}
+
+stage('Clone Repository') {
+steps {
+sh 'git clone https://github.com/username/repository.git'
+}
+}
+}
+}
