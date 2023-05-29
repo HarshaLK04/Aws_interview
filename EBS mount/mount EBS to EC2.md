@@ -5,8 +5,8 @@ Initialize Terraform: Run the following command in your Terraform project direct
 terraform init
 `Define the AWS provider: In your Terraform configuration file (e.g., main.tf), define the AWS provider block. For example:`
 
-provider "aws" {
-  region = "us-west-2"
+provider "aws" {`<br>`
+  region = "us-west-2"`<br>`
 }
 
 
