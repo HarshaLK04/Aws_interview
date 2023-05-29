@@ -22,7 +22,7 @@ resource "aws_instance" "example_instance1" {
   ami           = "ami-0123456789abcdef0"
   instance_type = "t2.micro"
 
-  # Other instance configuration parameters...
+# Other instance configuration parameters...
 
   ebs_block_device {
     device_name = "/dev/sdf"
