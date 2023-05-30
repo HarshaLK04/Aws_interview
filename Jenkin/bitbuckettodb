@@ -18,13 +18,13 @@ pipeline {
         stage('Execute Script 1') {
           steps {
             // Execute Script 1 on the PostgreSQL database
-            sh 'psql -U username -d dbname -f script1.sql'
+            sh 'psql -U <postgres-username> -h <postgres-host> -p <postgres-port> -d <postgres-database> -f script1.sql'
           }
         }
         stage('Execute Script 2') {
           steps {
             // Execute Script 2 on the PostgreSQL database
-            sh 'psql -U username -d dbname -f script2.sql'
+            sh 'psql -U <postgres-username> -h <postgres-host> -p <postgres-port> -d <postgres-database> -f script2.sql'
           }
         }
         // Add more stages for additional scripts if needed
