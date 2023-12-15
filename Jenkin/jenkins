@@ -1,15 +1,26 @@
 #!/bin/bash
 
-server_ip="$1"
+# Replace with your remote server's IP address or hostname
+REMOTE_SERVER="44.206.231.37"
 
-if ssh "$server_ip" "uname -s" | grep -q "Linux"; then
-  echo "Server is Linux"
-elif ssh "$server_ip" "netstat -a" | grep -q "LISTEN" | grep -q ":445"; then
-  echo "Server is Windows (SMB port open)"
-elif ssh -o ConnectTimeout=5 "$server_ip" "echo $SSH_SERVER" | grep -q "Linux"; then
-  echo "Server is Linux (SSH banner)"
-elif ssh -o ConnectTimeout=5 "$server_ip" "echo $SSH_SERVER" | grep -q "Microsoft"; then
-  echo "Server is Windows (SSH banner)"
+# Attempt to determine the OS
+is_windows() {
+    # Use the "systeminfo" command on Windows
+    ssh "$REMOTE_SERVER" 'systeminfo' 2>/dev/null | grep -iq 'Microsoft Windows' && return 0
+    return 1
+}
+
+is_linux() {
+    # Use the "uname" command on Linux
+    ssh "$REMOTE_SERVER" 'uname' 2>/dev/null | grep -iq 'linux' && return 0
+    return 1
+}
+
+# Main script
+if is_windows; then
+    echo "Remote server is running Windows."
+elif is_linux; then
+    echo "Remote server is running Linux."
 else
-  echo "Unable to determine server OS"
+    echo "Unable to determine the operating system."
 fi
