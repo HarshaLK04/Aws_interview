@@ -1,34 +1,15 @@
-=======================================
+#!/bin/bash
 
-## to deploy github sripts into database
-pipeline {
-agent any
+server_ip="$1"
 
-stages {
-stage('Checkout') {
-steps {
-checkout([$class: 'GitSCM', 
-branches: [[name: '*/main']], 
-doGenerateSubmoduleConfigurations: false, 
-extensions: [], 
-submoduleCfg: [], 
-userRemoteConfigs: [[url: 'https://github.com/username/repository.git']]])
-}
-}
-
-stage('Deploy to Database') {
-environment {
-DB_HOST = 'localhost'
-DB_PORT = '3306'
-DB_NAME = 'database_name'
-DB_USER = 'database_user'
-DB_PASS = 'database_password'
-}
-steps {
-sh "mysql -h ${DB_HOST} -P ${DB_PORT} -u ${DB_USER} -p${DB_PASS} ${DB_NAME} < path/to/deployment/script.sql"
-}
-}
-}
-}
-
-
+if ssh "$server_ip" "uname -s" | grep -q "Linux"; then
+  echo "Server is Linux"
+elif ssh "$server_ip" "netstat -a" | grep -q "LISTEN" | grep -q ":445"; then
+  echo "Server is Windows (SMB port open)"
+elif ssh -o ConnectTimeout=5 "$server_ip" "echo $SSH_SERVER" | grep -q "Linux"; then
+  echo "Server is Linux (SSH banner)"
+elif ssh -o ConnectTimeout=5 "$server_ip" "echo $SSH_SERVER" | grep -q "Microsoft"; then
+  echo "Server is Windows (SSH banner)"
+else
+  echo "Unable to determine server OS"
+fi
